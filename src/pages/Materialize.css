@@ -1,0 +1,41 @@
+header {
+  background: url('https://source.unsplash.com/random');
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+}
+
+/* * {
+  border: 1px solid red;
+  padding: 5px;
+} */
+
+.row {
+  /* border: 1px solid green; */
+}
+
+section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+  background-color: #1a237e;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+
+.btn-small {
+  margin: 0 !important;
+  padding: 0px 5px !important;
+  /* border: 1px solid yellow; */
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}

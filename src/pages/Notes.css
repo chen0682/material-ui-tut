@@ -1,0 +1,9 @@
+.box {
+  height: 20rem;
+}
+
+nav .badge {
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
